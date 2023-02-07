@@ -1,0 +1,17 @@
+{
+  "name": "rocketseat-challange-01-node",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "NODE_ENV=development node --watch -r dotenv-flow/config src/server.js",
+    "csv:stream": "NODE_ENV=development node --watch -r dotenv-flow/config src/use-case/csv-stream.js"
+  },
+  "author": "",
+  "dependencies": {
+    "csv-generate": "^4.2.1",
+    "csv-parse": "^5.3.4",
+    "dotenv-flow": "^3.2.0"
+  }
+}
